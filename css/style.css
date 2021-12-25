@@ -72,6 +72,14 @@
 .main_container .colors h2 {
   text-align: center;
   padding: 30px;
+  font-weight: 400;
+}
+.main_container .colors hr {
+  margin: 15px 0;
+}
+.main_container .colors h3 {
+  text-align: center;
+  font-weight: 400;
 }
 .main_container .colors > div {
   display: grid;
