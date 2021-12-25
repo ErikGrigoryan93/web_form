@@ -137,8 +137,44 @@
     }
 
     .bars {
-        .top_bar {
+        > div {
+            border: 1px solid grey;
+            margin-top: 15px;
             
+            p {
+                padding: 15px;
+            }
+        }
+
+        .top_bar {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+
+            .blue_bar {
+                background-color: #2196F3;
+                color: white;
+            }
+        }
+
+        .middle_bar {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+
+            .green_bar {
+                background-color: #4CAF50;
+                color: white;
+            }
+        }
+
+        .last_bar {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+             
+            .red_bar {
+                background-color: #f44336;
+                color: white;
+            }
+
         }
     }
 }

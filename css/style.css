@@ -109,3 +109,34 @@
 .main_container .colors > div .orange {
   background-color: #ff9800;
 }
+.main_container .bars > div {
+  border: 1px solid grey;
+  margin-top: 15px;
+}
+.main_container .bars > div p {
+  padding: 15px;
+}
+.main_container .bars .top_bar {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.main_container .bars .top_bar .blue_bar {
+  background-color: #2196F3;
+  color: white;
+}
+.main_container .bars .middle_bar {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.main_container .bars .middle_bar .green_bar {
+  background-color: #4CAF50;
+  color: white;
+}
+.main_container .bars .last_bar {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+.main_container .bars .last_bar .red_bar {
+  background-color: #f44336;
+  color: white;
+}
