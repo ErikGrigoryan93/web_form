@@ -3,6 +3,9 @@
   margin: 0;
   font-family: sans-serif;
 }
+hr {
+  margin: 25px 0;
+}
 .main_header {
   background-color: black;
   position: relative;
@@ -175,4 +178,102 @@
 .main_container .containers .back_gray p {
   color: white;
   font-size: 20px;
+}
+.main_container .color_themes > h2 {
+  text-align: center;
+  font-weight: lighter;
+  margin: 30px;
+}
+.main_container .color_themes > p {
+  text-align: center;
+  margin: 25px;
+}
+.main_container .color_themes > div {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+.main_container .color_themes > div .indigo {
+  box-shadow: 1px 1px 5px 2px gray;
+}
+.main_container .color_themes > div .indigo hr {
+  margin: 0;
+}
+.main_container .color_themes > div .indigo h2 {
+  color: white;
+  background-color: #3f51b5;
+  padding: 25px 15px;
+  font-weight: lighter;
+}
+.main_container .color_themes > div .indigo h3 {
+  color: #3f51b5;
+  padding: 15px;
+  font-weight: lighter;
+  font-size: 25px;
+}
+.main_container .color_themes > div .indigo h4 {
+  padding: 15px;
+  font-weight: lighter;
+  font-size: 25px;
+}
+.main_container .color_themes > div .indigo p {
+  padding: 15px;
+}
+.main_container .color_themes > div .indigo h5 {
+  padding: 5px 15px;
+  color: white;
+  background-color: #3f51b5;
+  text-align: right;
+  font-size: 20px;
+}
+.main_container .color_themes > div .theme {
+  box-shadow: 1px 1px 5px 2px gray;
+}
+.main_container .color_themes > div .theme hr {
+  margin: 0;
+}
+.main_container .color_themes > div .theme h2 {
+  color: white;
+  background-color: black;
+  padding: 25px 15px;
+  font-weight: lighter;
+}
+.main_container .color_themes > div .theme h3 {
+  padding: 15px;
+  font-weight: lighter;
+  font-size: 25px;
+}
+.main_container .color_themes > div .theme h4 {
+  padding: 15px;
+  font-weight: lighter;
+  font-size: 25px;
+}
+.main_container .color_themes > div .theme p {
+  padding: 15px;
+}
+.main_container .color_themes > div .theme h5 {
+  padding: 5px 15px;
+  color: white;
+  background-color: black;
+  text-align: right;
+  font-size: 20px;
+}
+.main_container .cards h2 {
+  text-align: center;
+  font-weight: lighter;
+}
+.main_container .cards > div {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 20px;
+  margin-top: 20px;
+}
+.main_container .cards > div div {
+  box-shadow: 1px 1px 5px 2px gray;
+}
+.main_container .cards > div img {
+  width: 100%;
+}
+.main_container .cards > div p {
+  padding: 15px;
 }
