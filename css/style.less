@@ -347,5 +347,78 @@ hr {
             }
         }
 
-    } 
+    }
+    
+    .table {
+
+        > h2 {
+            text-align: center;
+            font-weight: lighter;
+            margin: 30px;
+        }
+
+        > p {
+            text-align: center;
+            margin: 25px;
+        }
+        
+
+
+        table {
+            box-shadow: 1px 1px 5px 2px gray;
+            width: 100%;
+            border-spacing: 0;
+            border-collapse: collapse;
+
+            thead {
+                color: white;
+                background-color: black;
+            }
+
+            td {
+                padding: 10px;
+            }
+            
+        }
+    }
+
+    .forms {
+        > h2 {
+            text-align: center;
+            font-weight: lighter;
+            margin: 30px;
+        }
+
+        > div {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 20px;
+
+            .form {
+                box-shadow: 1px 1px 5px 2px gray;
+                padding: 20px;
+                input {
+                    padding: 10px;
+                    width: 97%;
+                    border-radius: 5px;
+                    border: none;
+                }
+
+                hr {
+                    margin:0 0 5px 0;
+                    width: 99%;
+                }
+
+                h2 {
+                    font-weight: lighter;
+                    margin-bottom: 20px;
+                }
+
+                p {
+                    margin-bottom: 20px;
+                }
+            }
+        }
+
+    }
 }
