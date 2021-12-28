@@ -228,8 +228,22 @@
                     <hr>
                     <p>Subject</p>
                     <div>
-                        <div></div>
-                        <div></div>
+                        <div>
+                            <input type="checkbox" checked>
+                            <label for="">Milk</label><br>
+                            <input type="checkbox">
+                            <label for="">Sugar</label><br>
+                            <input type="checkbox" disabled>
+                            <label for="">Lemon (Disabled)</label>
+                        </div>
+                        <div>
+                            <input type="radio" name="sex" checked>
+                            <label for="">Male</label><br>
+                            <input type="radio" name="sex">
+                            <label for="">Female</label><br>
+                            <input type="radio" disabled>
+                            <label for="">Don't know (Disabled)</label>
+                        </div>
                     </div>
                 </div>
                 <div class="list">
@@ -239,27 +253,35 @@
                     <p>Eve</p>
                     <hr>
                     <p>Adam</p>
-                    <table>
-                        <thead>
-                            <tr>
-                                <th>Jill</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr>
-                                <td>Eve</td>
-                            </tr>
-                            <tr>
-                                <td>Adam</td>
-                            </tr>
-                            <tr>
-                                <td>Steve</td>
-                            </tr>
-                        </tbody>
-                        
-                    </table>
+                    <ul>
+                        <li class="black_li">Jill</li>
+                        <li>Eve</li>
+                        <li>Adam</li>
+                        <li>Steve</li>
+                    </ul>
                 </div>
             </div>
+        </section>
+
+        <hr>
+
+        <section class="navigation">
+            <h2>Navigation</h2>
+            <div>
+                <ul>
+                    <li><a href="">Home</a></li>
+                    <li><a href="">Link 1</a></li>
+                    <li class="dropdown">
+                      <a href="" class="dropbtn">Dropdown</a>
+                      <div class="dropdown-content">
+                        <a href="">Link 1</a>
+                        <a href="">Link 2</a>
+                        <a href="">Link 3</a>
+                      </div>
+                    </li>
+                  </ul>
+            </div>
+
         </section>
     </main>
     
